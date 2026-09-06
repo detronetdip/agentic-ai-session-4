@@ -11,7 +11,7 @@ services:
       - "5432:5432"
     volumes:
       - monk-session-4-pgvector-data:/var/lib/postgresql/data
-      - ./scripts/postgres-init.sql:/docker-entrypoint-initdb.d/00-init.sql:ro
+      - ./migration/postgres-init.sql:/docker-entrypoint-initdb.d/00-init.sql:ro
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d monk"]
       interval: 5s
