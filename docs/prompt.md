@@ -2,6 +2,8 @@
 
 **What you'll end up with:** a database running on your machine, a tiny demo that shows when two pieces of writing mean similar things, then a helper that looks through our saved documents and brings back the closest matches — with a link you can cite.
 
+The story is a short original novel in `data/the-night-orchard.md`. Open that file so they can see the chapters. It is not on the public web — that is why Google will fail and our search will not.
+
 Copy a step, paste it into Cursor, run what it builds, check it worked, then move on. Don't skip ahead.
 
 ---
@@ -45,4 +47,10 @@ Think of it like this: the computer turns each piece of text into a list of numb
 > The AI should use this when someone asks about our own docs, and it should always name the source.
 
 ---
+
+
+
+## Try this
+
+> Where did Anika Velthara hide the moth-key, and what sentence opens the monsoon vault?
 
