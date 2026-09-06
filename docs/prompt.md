@@ -1,12 +1,18 @@
 # Search our own documents
 
-Two files. Copy a step, paste it into Cursor, run what it builds, then move on.
+Copy a step, paste it into Cursor, run what it builds, then move on.
 
 The story is in `data/the-night-orchard.md`. Google has never read it. That is the point.
 
 ---
 
-## Step 1 — Ingest
+## Step 1 — Docker Compose
+
+> Create a Postgres database with Docker Compose. Use the compose file in this project. Run it in the background so it stays up while we work. Tell me when it's ready.
+
+---
+
+## Step 2 — Ingest
 
 > Create a file that puts our story into the database.
 >
@@ -16,11 +22,11 @@ The story is in `data/the-night-orchard.md`. Google has never read it. That is t
 
 ---
 
-## Step 2 — Search
+## Step 3 — Search
 
 > Create a second file that searches what we just saved.
 >
-> I ask a question. Turn it into an embedding the same way as Step 1, then find the chunks that mean the most similar thing.
+> I ask a question. Turn it into an embedding the same way as Step 2, then find the chunks that mean the most similar thing.
 >
 > For each match, tell me the text, how close it was, and where it came from.
 >
