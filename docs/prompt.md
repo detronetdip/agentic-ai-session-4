@@ -34,6 +34,16 @@ The story is in `data/the-night-orchard.md`. Google has never read it. That is t
 
 ---
 
+## Step 4 — One clear answer
+
+> Now take the matches from search and run them through an LLM so I get one consolidated answer, not a pile of chunks.
+>
+> The answer should be in plain English, only from what we found in our documents, and it should still say where it came from.
+>
+> Give me one command I can run, and let me type my own question.
+
+---
+
 ## Try this
 
 > Where did Anika Velthara hide the moth-key, and what sentence opens the monsoon vault?
